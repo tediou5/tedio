@@ -1,0 +1,17 @@
+[workspace]
+members = ["crates/*"]
+resolver = "2"
+
+[workspace.dependencies]
+futures = "0.3.31"
+pin-project = "1.1.10"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+authors = ["Tedio Contributors"]
+description = "A minimal single-threaded async runtime with support for scoped, non-'static tasks"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/tedio/tedio"
+keywords = ["async", "runtime", "scoped", "non-static"]
+categories = ["asynchronous", "concurrency"]
